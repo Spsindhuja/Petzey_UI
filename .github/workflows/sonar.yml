@@ -5,9 +5,7 @@ on:
   push:
     branches:
       - Dev
-  
-
-jobs:
+  jobs:
   sonarqube:
     runs-on: ubuntu-latest
     steps:
